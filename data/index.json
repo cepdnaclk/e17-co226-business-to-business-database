@@ -1,0 +1,38 @@
+{
+  "visibility": false,
+  "title": "Business to Business Database",
+  "team": [
+    {
+      "name": "Madhushan R.",
+      "email": "e17194@eng.pdn.ac.lk",
+      "eNumber": "E/17/194"
+    },
+    {
+      "name": "Devindi G.A.I",
+      "email": "e17058@eng.pdn.ac.lk",
+      "eNumber": "E/17/058"
+    },
+    {
+      "name": "Jayasooriya J.A.K.D",
+      "email": "e17134@eng.pdn.ac.lk",
+      "eNumber": "E/17/134"
+    }
+  ],
+  "supervisors": [
+    {
+      "name": "Mr.D.S.Deegalla",
+      "email": "sampath@eng.pdn.ac.lk"
+    },
+    {
+      "name": "Dr.Manjula Sandirigama",
+      "email": "m_sandirigama@ce.pdn.ac.lk"
+    }
+  ],
+  "description": "The basic goal of the project is to develop an online platform for the users (intended for business to business trade) which enables them to display products, place orders and do payments online. 
+The platform is organized for COMPANYs which has sub-classes of CUSTOMER and DISTRIBUTOR. Each company has a unique email address, a unique BRC No, a unique company ID, a password, a name, a type and it’s employees work for the company and an employee manages the company. A company may have more than one location. 
+The platform is centralized on selling PRODUCTs and each product has a unique product ID, a brand, a model, a distributor, a name, manufactured country, a price and a set of specifications. 
+Employees in a customer company using this platform are ACCOUNTANT, SUPERVISOR, PURCHASING_MANAGER and MANAGER. Employees in a distributor company using this platform are SALES_PERSON, ACCOUNTANT and MANAGER. We store their details such as a unique user_ID, the name, the gender, a password and a unique email address. 
+Purchasing manager of a customer company places ORDER for products to the salesperson of the distributor company. An order has a unique Order_ID and a Due_date. The salesperson of the distributor company delivers the product to the customer company with a bill according to the order. The supervisor of a customer company will rate the product after using it. 
+The Accountant of a customer company sends PAYMENT to the distributor’s accountant. The distributor company’s accountant sends OUTSTANDING to the customer’s accountant. Each payment has a unique Payment_ID, a Sender, a receiver, the amount, the method of payment and several Invoice_numbers. Each outstanding has a unique Outstanding_ID, a Sender, a receiver, the amount, several Invoice_numbers and the ",
+  "tags": ["DBMS", "MySQL"]
+}
